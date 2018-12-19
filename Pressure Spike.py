@@ -22,7 +22,7 @@ if cylinder_calculator == '0':
 
   print('Force =', pascals_law_force(),'lbs.')
 
-elif calculator == '1':
+elif cylinder_calculator == '1':
 #Calculate Pressure - Pressure = Force / Area
   print('Calculate Pressure - Pressure = Force / Area')
   def pascals_law_pressure():
@@ -31,7 +31,7 @@ elif calculator == '1':
       return float(force)/float(area)
 
   print('Pressure =',pascals_law_pressure(),'psi')
-elif calculator == '2':
+elif cylinder_calculatorr == '2':
     
 #Calculate Area - Area = Force / Pressure
   print('Calculate Area - Area = Force / Pressure')
@@ -42,7 +42,7 @@ elif calculator == '2':
 
   print('Area =', pascals_law_area(),'inches squared')
 
-elif calculator == '3':
+elif cylinder_calculator == '3':
 #Calculate Area of a cylinder - Area = Diameter * Diameter x .7854
   print('Calculate Area of a cylinder - Area = Diameter * Diameter x .7854')
   def cylinder_area():
@@ -51,7 +51,7 @@ elif calculator == '3':
 
   print('Cylinder Area:',cylinder_area(),'inches squared')
 
-elif calculator == '4':
+elif cylinder_calculator == '4':
 #Cylinder Velocity Formulas
 
 #Find velocity of a cylinder(velocity(in/min) = Stroke(inches) * (60/Time(seconds))
@@ -63,7 +63,7 @@ elif calculator == '4':
 
   print('Cylinder Velocity =',cylinder_velocity_stroke_time(),'inches/minutes')
 
-elif calculator == '5':
+elif cylinder_calculator == '5':
 #Find cylinder velocity - Velocity = (Flow(gpm) * 231)/area(inches squared)
   print('Find cylinder velocity - Velocity = (Flow(gpm) * 231)/area(inches squared)')
   def cylinder_velocity_flow_area():
